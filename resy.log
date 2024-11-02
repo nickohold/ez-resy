@@ -1,0 +1,49 @@
+[2024-11-02 08:58:01 EDT] Starting cron job. NYC Time: 2024-11-02 08:58, Local Time: 
+[2024-11-02 08:58:01 EDT] Running reservation check at NYC time 08:58.
+8:58:02 AM: JWT will expire on Sun Dec 01 2024 06:50:57 GMT-0500 (Eastern Standard Time)
+8:58:02 AM: No existing reservation found.
+8:58:02 AM: The venue is not open for reservations on Saturday, November 16.
+
+[2024-11-02 08:59:01 EDT] Starting cron job. NYC Time: 2024-11-02 08:59, Local Time: 
+[2024-11-02 08:59:01 EDT] Running reservation check at NYC time 08:59.
+8:59:01 AM: JWT will expire on Sun Dec 01 2024 06:50:57 GMT-0500 (Eastern Standard Time)
+8:59:02 AM: No existing reservation found.
+8:59:02 AM: The venue is not open for reservations on Saturday, November 16.
+
+2:59:14 PM: JWT will expire on Sun Dec 01 2024 13:50:57 GMT+0200 (Israel Standard Time)
+2:59:15 PM: No existing reservation found.
+2:59:15 PM: The venue is not open for reservations on Saturday, November 16.
+2:59:18 PM: JWT will expire on Sun Dec 01 2024 13:50:57 GMT+0200 (Israel Standard Time)
+2:59:18 PM: No existing reservation found.
+2:59:19 PM: The venue is not open for reservations on Saturday, November 16.
+2:59:28 PM: JWT will expire on Sun Dec 01 2024 13:50:57 GMT+0200 (Israel Standard Time)
+2:59:29 PM: No existing reservation found.
+2:59:29 PM: The venue is not open for reservations on Saturday, November 16.
+2:59:57 PM: JWT will expire on Sun Dec 01 2024 13:50:57 GMT+0200 (Israel Standard Time)
+2:59:58 PM: No existing reservation found.
+2:59:58 PM: The venue is not open for reservations on Saturday, November 16.
+[2024-11-02 09:00:00 EDT] Starting cron job. NYC Time: 2024-11-02 09:00, Local Time: 
+[2024-11-02 09:00:00 EDT] Running reservation check at NYC time 09:00.
+9:00:01 AM: JWT will expire on Sun Dec 01 2024 06:50:57 GMT-0500 (Eastern Standard Time)
+9:00:02 AM: No existing reservation found.
+9:00:02 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 4 people...
+9:00:02 AM: There are 0 slots available
+9:00:03 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 3 people...
+9:00:03 AM: There are 0 slots available
+9:00:03 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 2 people...
+9:00:03 AM: There are 29 slots available
+9:00:03 AM: Booking a prime slot at 5:00 PM in the Dining Room!
+9:00:05 AM: You've got a reservation!
+
+[2024-11-02 09:01:00 EDT] Starting cron job. NYC Time: 2024-11-02 09:01, Local Time: 
+[2024-11-02 09:01:00 EDT] Running reservation check at NYC time 09:01.
+9:01:01 AM: JWT will expire on Sun Dec 01 2024 06:50:57 GMT-0500 (Eastern Standard Time)
+9:01:02 AM: No existing reservation found.
+9:01:02 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 4 people...
+9:01:02 AM: There are 0 slots available
+9:01:03 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 3 people...
+9:01:03 AM: There are 0 slots available
+9:01:03 AM: Checking for reservations at Una Pizza Napoletana on Saturday, November 16 for 2 people...
+9:01:03 AM: There are 0 slots available
+9:01:03 AM: No slots available for any party size between 2 and original request.
+
