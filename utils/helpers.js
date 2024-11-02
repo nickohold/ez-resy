@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken';
+import { log } from './logger.js';
 
 function convertTimeToTwelveHourFormat(time) {
   const timeString = time.split(' ')[1];
@@ -34,7 +35,7 @@ function isTimeBetween(startTime, endTime, dateString) {
 
 async function checkTokenExpiration(token) {
   if (!token) {
-    console.error('JWT token not found in the AUTH_TOKEN environment variable');
+    log('JWT token not found in the AUTH_TOKEN environment variable');
     process.exit(1);
   }
 
@@ -47,18 +48,18 @@ async function checkTokenExpiration(token) {
       const expirationDate = new Date(decoded.exp * 1000);
 
       if (timeUntilExpiration <= 0) {
-        console.log('JWT has already expired');
+        log('JWT has already expired');
         return false;
       } else {
-        console.log(`JWT will expire on ${expirationDate}`);
+        log(`JWT will expire on ${expirationDate}`);
         return true;
       }
     } else {
-      console.error('JWT decoding failed');
+      log('JWT decoding failed');
       return false;
     }
   } catch (error) {
-    console.error('JWT decoding failed:', error);
+    log(`JWT decoding failed: ${error}`);
     return false;
   }
 }
