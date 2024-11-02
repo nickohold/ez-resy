@@ -6,6 +6,10 @@ import {
 } from './utils/bookingLogic.js';
 
 import { checkTokenExpiration } from './utils/helpers.js';
+import { log } from './utils/logger.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Run the script
 let token = await checkTokenExpiration(process.env.AUTH_TOKEN);
@@ -18,9 +22,9 @@ if (token) {
       let bookToken = await getBookingConfig(slots);
       let booking = await makeBooking(bookToken);
       if (booking.resy_token) {
-        console.log(`You've got a reservation!`);
+        log(`You've got a reservation!`);
       } else {
-        console.log(`Something went to 💩`);
+        log(`Something went to 💩`);
       }
     }
   }

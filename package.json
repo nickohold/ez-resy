@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./env_manager.sh && dotenv -e .env node index.js",
-    "start:today": "dotenv -e .env node index.js"
+    "start": "dotenv -e .env node index.js",
+    "setup-cron:js": "node scripts/setup-cron.js",
+    "setup-cron:sh": "bash scripts/setup-cron.sh"
   },
   "keywords": [],
   "type": "module",
