@@ -9,6 +9,7 @@ import {
   finalConfig,
 } from "../config.js";
 import { log } from "./logger.js";
+
 // First, we'll see if we already have a reservation
 async function checkForExistingBooking() {
   let config = existingReservationConfig(process.env.AUTH_TOKEN);
